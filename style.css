@@ -72,9 +72,7 @@ body {
 .signin {
     border: lightgrey solid 1px;
     border-radius: 30px;
-    padding: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 15px 25px;
     color: black;
     font-size: 14px;
     font-weight: bold;
@@ -84,9 +82,7 @@ body {
 .signup {
     border-radius: 30px;
     background-color: black;
-    padding: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 15px 25px;
     margin-left: 10px;
     color: white;
     font-size: 14px;
@@ -138,38 +134,207 @@ body {
 
 .border {
     position: absolute;
-    left: 657px;
+    left: 658px;
     right: 0;
     bottom: 0;
-    top: 138px;
+    top: 139px;
     height: 34px;
     width: 147px;
-    border: #f6f5f5 solid 4px;
+    border: #f6f5f5 solid 3px;
     border-radius: 25px;
 
 }
+
 .title {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .inherit-title {
     color: inherit;
     font-size: 4em;
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .orange-title {
     color: orangered;
     font-size: 4em;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .under-title {
     display: flex;
     justify-content: center;
     font-size: 13px;
     color: dimgrey;
     margin-top: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.explore {
+    border-radius: 30px;
+    padding: 17px 30px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 35px;
+}
+
+.join {
+    border: lightgrey solid 1px;
+    border-radius: 30px;
+    padding: 17px 30px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.explore:hover {
+    background-color: orangered;
+}
+
+.join:hover {
+    background-color: orangered;
+}
+
+.under-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+.nike {
+    height: 40px;
+    width: 90px;
+    filter: grayscale(100%);
+    opacity: 30%;
+
+}
+
+.fedex {
+    height: 50px;
+    width: 100px;
+    filter: grayscale(100%);
+    opacity: 30%;
+}
+
+.amazon {
+    height: 40px;
+    width: 100px;
+    filter: grayscale(100%);
+    margin-top: 10px;
+    opacity: 30%;
+}
+
+.mapfre {
+    height: 20px;
+    width: 130px;
+    filter: grayscale(100%);
+    margin-top: 17px;
+    opacity: 30%;
+}
+
+.segment {
+    height: 100px;
+    width: 150px;
+    filter: grayscale(100%);
+    margin-top: -20px;
+    opacity: 30%;
+}
+
+.google {
+    height: 40px;
+    width: 100px;
+    filter: grayscale(100%);
+    margin-top: 20px;
+    opacity: 30%;
+}
+
+.ibm {
+    height: 30px;
+    width: 70px;
+    filter: grayscale(100%);
+    margin-top: 30px;
+    opacity: 30%;
+}
+
+.porsche {
+    height: 60px;
+    width: 110px;
+    filter: grayscale(100%);
+    margin-top: 10px;
+    opacity: 30%;
+}
+
+.sponsors img:hover {
+    opacity: 100%;
+    filter: grayscale(0);
+}
+
+.courses {
+    background-color: whitesmoke;
+}
+
+.popular-text {
+    display: flex;
+    justify-content: center;
+
+    h4 {
+        color: grey;
+        font-size: 13px;
+        background-color: white;
+        padding: 7px 15px;
+        border-radius: 25px;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+}
+
+.border2 {
+    position: absolute;
+    left: 674px;
+    right: 0;
+    bottom: 0;
+    top: 798.5px;
+    height: 34px;
+    width: 118px;
+    border: white solid 2px;
+    border-radius: 25px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+
+    h1 {
+        font-size: 50px;
+
+        span {
+            color: orangered;
+        }
+    }
+}
+.courses-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
