@@ -8,7 +8,7 @@
 
 
 body {
-    border: #d8d4d4 solid 10px;
+    border: #d8d4d4 solid 14px;
     margin: auto;
     font-family: sans-serif;
 
@@ -22,19 +22,24 @@ body {
 .logo {
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 15px;
     padding: 0;
     align-items: center;
 
-    h3 {
-        margin-left: 10px;
-        a {
-            color: inherit;
-        }
+    img {
+        height: 60%;
+        width: 60%;
     }
 
+    a {
+        color: inherit;
+        font-size: larger;
+    }
+}
 
+.links-ul {
+    margin-left: 120px;
 }
 
 .links-ul li {
@@ -59,6 +64,112 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
-    padding: 0;
+    margin-right: 40px;
     align-items: center;
+    width: 15%;
+}
+
+.signin {
+    border: lightgrey solid 1px;
+    border-radius: 30px;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.signup {
+    border-radius: 30px;
+    background-color: black;
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.signin:hover {
+    background-color: orangered;
+}
+
+.signup:hover {
+    background-color: orangered;
+}
+
+.discount {
+    position: relative;
+    right: 110px;
+    top: 20px
+}
+
+.discount-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 100px;
+    bottom: 0;
+
+    span {
+        border-radius: 25px;
+        background-color: orangered;
+        color: white;
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+}
+
+.learning-platform {
+    display: flex;
+    justify-content: center;
+
+    h4 {
+        color: grey;
+        font-size: 13px;
+        background-color: #f6f5f5;
+        padding: 7px 15px;
+        border-radius: 25px;
+    }
+}
+
+.border {
+    position: absolute;
+    left: 657px;
+    right: 0;
+    bottom: 0;
+    top: 138px;
+    height: 34px;
+    width: 147px;
+    border: #f6f5f5 solid 4px;
+    border-radius: 25px;
+
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.inherit-title {
+    color: inherit;
+    font-size: 4em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.orange-title {
+    color: orangered;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.under-title {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: dimgrey;
+    margin-top: 0;
 }
