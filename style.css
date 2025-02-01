@@ -826,26 +826,26 @@ footer {
 
 .person1 {
     transform: scale(35%);
-    height: 100%;
+    height: 120%;
     position: absolute;
     bottom: 0;
     right: 670px;
-    top: -160px;
+    top: -220px;
     left: 0;
 }
 
 .person2 {
-    transform: scale(40%);
+    transform: scale(37%);
     position: absolute;
-    height: 100%;
+    height: 130%;
     bottom: 0;
-    right: 670px;
-    top: 100px;
+    right: 520px;
+    top: 10px;
     left: 0;
 }
 
 .person3 {
-    transform: scale(30%);
+    transform: scale(25%);
     position: absolute;
     width: 78%;
     bottom: 0;
@@ -855,12 +855,12 @@ footer {
 }
 
 .person4 {
-    transform: scale(22%);
+    transform: scale(25%);
     position: absolute;
     width: 100%;
     bottom: 0;
     right: 0;
-    top: 50px;
+    top: 80px;
     left: 480px;
 }
 
