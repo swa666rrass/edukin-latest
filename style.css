@@ -8,7 +8,7 @@
 
 
 body {
-    border: #d8d4d4 solid 14px;
+    border: #d8d4d4 solid 16px;
     margin: auto;
     font-family: sans-serif;
 
@@ -654,7 +654,7 @@ body {
 
 .about {
     margin-top: 70px;
-    height: auto;
+    height: 30rem;
 }
 
 .theedukin-text {
@@ -734,6 +734,8 @@ img {
 }
 footer {
     background-color: whitesmoke;
+    margin-top: 80px;
+    height: 35rem;
 }
 
 .contacts {
@@ -746,6 +748,7 @@ footer {
     .contact_title {
         margin: 0;
         font-size: 50px;
+        margin-top: 80px;
     }
 
 }
@@ -754,4 +757,10 @@ footer {
     margin-bottom: 50px;
     font-size: 40px;
     color: orangered;
+}
+.contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
