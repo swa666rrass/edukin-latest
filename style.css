@@ -142,7 +142,7 @@ body {
     left: 658px;
     right: 0;
     bottom: 0;
-    top: 139px;
+    top: 141px;
     height: 34px;
     width: 147px;
     border: #f6f5f5 solid 3px;
@@ -323,7 +323,7 @@ body {
     left: 674px;
     right: 0;
     bottom: 0;
-    top: 799px;
+    top: 801px;
     height: 34px;
     width: 118px;
     border: white solid 2px;
@@ -732,6 +732,7 @@ img {
     width: 50%;
     border-radius: 5%;
 }
+
 footer {
     background-color: whitesmoke;
     margin-top: 80px;
@@ -752,15 +753,74 @@ footer {
     }
 
 }
+
 .contact_title2 {
     margin-top: 0;
     margin-bottom: 50px;
     font-size: 40px;
     color: orangered;
 }
+
 .contact-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
+}
+
+.instagram {
+    margin-left: 40px;
+    height: 150px;
+    width: 150px;
+    filter: grayscale(100%);
+    opacity: 40%;
+
+}
+
+.instagram:hover {
+    filter: grayscale(0);
+    opacity: 100%;
+
+}
+
+.mail {
+    margin-left: 200px;
+    height: 170px;
+    width: 200px;
+    filter: grayscale(100%);
+    opacity: 40%;
+}
+
+.mail:hover {
+    filter: grayscale(0);
+    opacity: 100%;
+
+}
+
+.facebook {
+    margin-left: 200px;
+    height: 150px;
+    width: 150px;
+    filter: grayscale(100%);
+    opacity: 40%;
+
+}
+
+.facebook:hover {
+    filter: grayscale(0);
+    opacity: 100%;
+
+}
+
+.twitter {
+    margin-left: 200px;
+    height: 150px;
+    width: 170px;
+    filter: grayscale(100%);
+    opacity: 40%;
+}
+
+.twitter:hover {
+    filter: grayscale(0);
+    opacity: 100%;
 }
